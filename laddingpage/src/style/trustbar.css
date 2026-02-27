@@ -1,0 +1,28 @@
+.trust-bar {
+    position: relative;
+    background-color: var(--roxo-principal);
+    z-index: 1;
+    border-top: 1px solid var(--roxo-claro);
+    border-bottom: 1px solid var(--roxo-claro);
+    padding: 18px 36px;
+    overflow: hidden;
+}
+
+.trust-inner {
+    max-width: 1300px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 44px;
+    flex-wrap: wrap;
+}
+
+.trust-item {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--text-primario);
+}

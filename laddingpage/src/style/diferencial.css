@@ -1,0 +1,85 @@
+.diferencial-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    gap: 3rem;
+    padding: 50px;
+    background-color: var(--roxo-fundo);
+}
+
+.titulo-diferencial {
+    font-family: 'Sora', sans-serif;
+    font-size: clamp(1.8rem, 3vw, 2.8rem);
+    font-weight: 900;
+    line-height: 1.1;
+    letter-spacing: -0.02em;
+    color: var(--texto-principal);
+}
+
+p {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.75;
+    color: var(--texto-secundario);
+}
+
+.card-principal-diferencial {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 2rem;
+}
+
+.card-diferencial {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    padding: 2rem;
+    background-color: var(--card-fundo);
+    border: 1px solid var(--card-borda);
+    border-radius: 1.25rem;
+    color: var(--texto-principal);
+    position: relative;
+    overflow: hidden;
+    transition: border-color 0.25s ease, transform 0.25s ease, background 0.25s ease;
+}
+
+.card-diferencial:hover {
+    background-color: #f4e4052b;
+    border: 1px solid var(--amarelo-escuro);
+    transform: translateY(-5px);
+}
+
+.card-titulo {
+    font-family: 'Sora', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 800;
+    color: var(--texto-principal);
+    margin: 0;
+}
+
+.card-icon {
+    font-size: 1.6rem;
+    background: linear-gradient(135deg, rgba(91, 30, 153, 0.35), rgba(160, 96, 224, 0.2));
+    border: 1px solid rgba(160, 96, 224, 0.25);
+    width: 52px;
+    height: 52px;
+    border-radius: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0.25rem;
+}
+
+.card-text {
+    font-size: 0.7rem;
+    font-weight: 800;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--texto-secundario);
+}

@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600;700;800;900&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600&display=swap');
+
+:root {
+    /* ── ROXOS (base da marca) ──────────────────── */
+    --roxo-fundo: #1A0835;
+    /* fundo principal da página */
+    --roxo-fundo-cards: #2D0A5C;
+    /* fundo de seções e cards */
+    --roxo-principal: #5B1E99;
+    /* cor primária da marca */
+    --roxo-medio: #7B35C4;
+    /* hovers e gradientes */
+    --roxo-claro: #A060E0;
+    /* detalhes, bordas, labels */
+
+    /* ── AMARELO (destaques e CTAs) ─────────────── */
+    --amarelo: #F5C500;
+    /* botões CTA, textos em destaque */
+    --amarelo-claro: #FFD740;
+    /* variação mais clara do amarelo */
+    --amarelo-escuro: #D4A800;
+    /* sombra/gradiente do botão CTA */
+
+    /* ── LARANJA (ação secundária) ──────────────── */
+    --laranja: #FF6B00;
+    /* botão WhatsApp, setas, logo */
+    --laranja-claro: #FF8C35;
+    /* variação mais clara do laranja */
+
+    /* ── TEXTOS ─────────────────────────────────── */
+    --texto-principal: #FFFFFF;
+    /* títulos e textos em destaque */
+    --texto-secundario: #C8B8E0;
+    /* parágrafos e subtítulos */
+    --texto-suave: #9B87B8;
+    /* labels, placeholders, rodapé */
+
+    /* ── CARDS / BORDAS ─────────────────────────── */
+    --card-fundo: rgba(255, 255, 255, 0.04);
+    --card-borda: rgba(255, 255, 255, 0.08);
+
+    /* ── TIPOGRAFIA ─────────────────────────────── */
+    font-family: 'Sora', 'DM Sans', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
