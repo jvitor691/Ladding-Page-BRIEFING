@@ -176,3 +176,25 @@
     fill: none;
     stroke-width: 2.2
 }
+
+/* SVG fallback herda stroke do CSS existente */
+.banco-logo-fallback {
+    width: 28px;
+    height: 28px;
+}
+
+.banco-logo-box {
+    width: 90px;
+    height: 90px;
+    border-radius: 18px;
+    border: 2px solid rgba(255, 255, 255, 0.22);
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+}
+
+.banco-logo {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    padding: 10px;
+    border-radius: 16px;
+}
