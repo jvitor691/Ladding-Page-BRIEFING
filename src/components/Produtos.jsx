@@ -24,7 +24,7 @@ const PRODUCTS = [
 const Produtos = () => {
     const generateWhatsAppLink = (productName, category) => {
         const message = `Olá, gostaria de mais informações sobre o ${productName} da categoria ${category}.`;
-        return `https://wa.me/558521395599?text=${encodeURIComponent(message)}`;
+        return `https://wa.me/558599278663s?text=${encodeURIComponent(message)}`;
     };
 
     return (
