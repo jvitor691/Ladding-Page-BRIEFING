@@ -306,9 +306,9 @@
         display: flex;
     }
 
-    .logo {
+    .menu-mobile-header {
         height: 32px;
-        background-color: var(--roxo);
+        background-color: var(--roxo-claro);
     }
 
     .nav-inner {
