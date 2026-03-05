@@ -306,7 +306,7 @@
         display: flex;
     }
 
-    .logo-img {
+    .logo {
         height: 32px;
         background-color: var(--roxo);
     }
