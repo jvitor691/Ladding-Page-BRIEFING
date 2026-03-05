@@ -1,6 +1,5 @@
 import { Link } from "react-router-dom";
 import "../style/notfound.css";
-import logo from "../assets/Logo ideia.png"
 
 const NotFound = () => (
     <div className="nf-page">
