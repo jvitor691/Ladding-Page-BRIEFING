@@ -16,8 +16,9 @@ const Home = () => {
             <OndeEstamos />
             <Institucional />
             <Parceiros />
-            <Footer />
             <Cookie />
+            <Footer />
+
         </>
     );
 };
