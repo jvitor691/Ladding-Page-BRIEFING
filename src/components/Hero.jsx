@@ -24,7 +24,7 @@ const Hero = () => {
 
                     <div className="hero-btns">
                         <a
-                            href="https://wa.me/5585992786663"
+                            href="https://docs.google.com/forms/d/e/1FAIpQLSceKXryQl253VAoPpnm41o-xT56bgSi0ESPqUn4Lzspi47iKw/viewform?usp=publish-editor"
                             className="btn-hero-amarelo"
                             target="_blank"
                             rel="noopener noreferrer"
